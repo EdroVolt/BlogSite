@@ -1,23 +1,42 @@
 html,
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  margin: 0;
 }
 
 .container {
-    width: auto;
-    height: 100%;
-    background: yellow;
-    border: none;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 50px 200px 500 100px;
+  height: 100%;
+  background: yellow;
+  border: 2px solid blue;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 783px 100px;
 }
 
-div {
-    width: auto;
-    height: auto;
-    border: 2px solid red;
+.container > div {
+  border: 2px solid red;
+  /* display: flex; */
+}
+
+.navbar {
+  /* grid-area: nv; */
+}
+
+.header {
+  /* grid-area: hd; */
+}
+
+.content {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.footer {
+  /* grid-area: ft; */
+}
+
+.card {
+  border: 3px solid black;
 }
