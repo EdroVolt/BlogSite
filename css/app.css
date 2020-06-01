@@ -1,31 +1,10 @@
+@import url("./main-grid.css");
+@import url("./main-font.css");
+@import url("./main-navbar.css");
+
 html,
 body {
   margin: 0;
-}
-
-/* grid container */
-.container {
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 80px minmax(683px, auto) 174px;
-}
-
-/* navbar */
-.navbar {
-  background: #d2fafb;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.home,
-.about {
-  padding: 10px;
-  background-color: #fe346e;
-  text-decoration: none;
-  color: white;
-  border-radius: 15px;
 }
 
 /* content */
